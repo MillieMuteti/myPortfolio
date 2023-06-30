@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import Me from '../../assets/me.png'
+import Meee from '../../assets/Meee.png'
 import CTA from './CTA'
 import Headersocials from './Headersocials'
 import "./header.css"
@@ -13,10 +14,12 @@ const Header = () => {
         <h1>Millie Muteti</h1>
         <h5 className='text-light'>Frontend Developer</h5>
         <CTA />
+        <Headersocials />
         <div className='me'>
-          <img src={Me} alt='me' />
+          <img src={Meee} alt='me' />
         </div>
         <a href='#contact' className='scroll__down'>scroll down</a>
+        
       </div>
       
     </header>
