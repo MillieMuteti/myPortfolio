@@ -1,11 +1,12 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./experience.css"
 
 const Experience = () => {
   return (
-    <div>
+    <section id='experience'>
       <h1>Experience</h1>
-    </div>
+    </section>
   )
 }
 
