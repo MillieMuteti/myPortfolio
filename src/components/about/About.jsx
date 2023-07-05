@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import "./about.css"
@@ -42,8 +43,9 @@ const About = () => {
 
           <p>
           Pellentesque eget vestibulum sapien. Duis sit amet fermentum est. 
-          Etiam lobortis arcu luctus, pharetra turpis a, laoreet nisl. Nullam a aliquam lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam magna erat, bibendum porttitor maximus ac, pretium quis quam. 
-          Curabitur blandit turpis eu lorem scelerisque, non iaculis lacus rutrum. Proin at nisl tincidunt, varius orci ac, mollis nisi.
+          Etiam lobortis arcu luctus, pharetra turpis a, laoreet nisl. Nullam a aliquam lorem. 
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+          Aliquam magna erat, bibendum porttitor maximus ac, pretium quis quam. 
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
