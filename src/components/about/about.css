@@ -1,16 +1,15 @@
-.about__container {
+.about__container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
 .about__me {
-    width: 100% ;
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient
-    (45deg, 
-    transparent,
+    (45deg,transparent,
      var(--color-primary),
      transparent
      );
@@ -21,5 +20,5 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform-origin: rotate(10deg);
+    transform: rotate(10deg);
 }
