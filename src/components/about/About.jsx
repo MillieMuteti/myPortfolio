@@ -1,59 +1,40 @@
-/* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import "./about.css"
-import Me from "../../assets/me.png"
-import {BsAward} from 'react-icons/bs'
-import {FiUsers} from 'react-icons/fi'
-import {LuFolders} from 'react-icons/lu'
+import React from 'react';
+import './about.css'; 
+import Me from '../../assets/me.png'
 
-const About = () => {
+const AboutMe = () => {
   return (
-    <section id='about'>
-    <h5>Get to Know</h5>
-    <h1>About Me</h1>
-
-    <div className='container about__container'>
-      <div className='about__me'>
-        <div className='about__me-image'>
-          <img src={Me} alt='aboutImage' />
-        </div>
-
-        <div className='about__content'>
-          <div className='aboutCards'>
-            
-            <article className='aboutCard'>
-              <BsAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>2 Years Working</small>
-            </article>
-
-            <article className='aboutCard'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>10+ Clients</small>
-            </article>
-
-            <article className='aboutCard'>
-              <LuFolders className='about__icon' />
-              <h5>Projects</h5>
-              <small>20+ Completed Projects</small>
-            </article>
-          </div>
-
+    <section id="about">
+      <div className="about-content">
+        <div className="about-text">
+          <h2>About Me</h2>
           <p>
-          Pellentesque eget vestibulum sapien. Duis sit amet fermentum est. 
-          Etiam lobortis arcu luctus, pharetra turpis a, laoreet nisl. Nullam a aliquam lorem. 
-          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-          Aliquam magna erat, bibendum porttitor maximus ac, pretium quis quam. 
+            Hi there! I'm Millie Muteti, a passionate web developer with a strong
+            background in front-end development. I love building creative and
+            user-friendly web experiences using the latest web technologies.
           </p>
-
+          <p>
+            With several years of experience in the industry, I have worked on a
+            variety of projects, ranging from small business websites to complex
+            web applications. My goal is to deliver high-quality code and exceed
+            client expectations.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies,
+            attending tech conferences, and enjoying a good cup of coffee. Feel
+            free to get in touch with me if you have any questions or if you'd
+            like to collaborate on a project.
+          </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
-        </div>
-    </div>
-    </div>
-    </section>
-  )
-}
 
-export default About
+        </div>
+        <div className="about-image">
+          <img src={Me} alt="About Me" />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutMe;
