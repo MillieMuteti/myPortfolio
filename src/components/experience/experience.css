@@ -1,0 +1,54 @@
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .experience-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .experience-card {
+    background-color: var(--color-primary-variant);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .experience-year {
+    background-color: #333;
+    color: var(--color-white);
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  .experience-position {
+    margin-left: 10px;
+  }
+  
+  .experience-company {
+    font-weight: 700;
+  }
+  
+  .experience-description {
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 767px) {
+    /* Styles for phones */
+    .experience-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  

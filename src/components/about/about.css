@@ -13,12 +13,14 @@
   
   .about-image {
     text-align: center;
+
   }
   
   .about-image img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+    
   }
   
   /* Responsive Styles */

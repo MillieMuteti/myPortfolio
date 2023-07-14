@@ -16,9 +16,7 @@ const Header = () => {
         className='text-light'>Frontend Developer</h5>
         <CTA />
         <Headersocials />
-        <div className='me'>
-          <img src={Meee} alt='me' />
-        </div>
+        
         <a href='#contact' 
         className='scroll__down'>scroll down</a>
         
@@ -29,3 +27,5 @@ const Header = () => {
 }
 
 export default Header
+
+

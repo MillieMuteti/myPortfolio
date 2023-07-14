@@ -34,16 +34,7 @@ header {
     background: var(--color-primary);
 }
 
-.me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;  
-    position: absolute;
-    left: calc(50% -11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-}
+
 
 .scroll__down {
     position: absolute;
@@ -62,12 +53,14 @@ header {
    header {
     height: 68vh;
    }
+
   }
   /* Small Screens */
   @media screen and (max-width:600px) {
     header {
         height: 100vh;
     }
+    
 
     .header__socials, .scroll__down {
         display: none;

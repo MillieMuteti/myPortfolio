@@ -14,7 +14,7 @@ function Services() {
                 <p>
                I design and develop visually appealing and functional websites
                 using HTML, CSS, and JavaScript. This involves creating the user interface, 
-                implementing interactive elements, and ensuring cross-browser compatibility.
+                implementing interactive elements.
                 </p>
             </div>
             <div className='services'>
@@ -33,7 +33,7 @@ function Services() {
                 <p>
                 Slow-loading websites can lead to user frustration and abandonment. 
                 By employing various optimization techniques such as code minification, image compression, 
-                caching, and lazy loading, I significantly improve website performance and speed.
+                caching, and lazy loading.
                 </p>
             </div>
             <div className='services'>
@@ -58,8 +58,7 @@ function Services() {
                 <h3>Accesibility</h3>
                 <p>
                 Accessibility ensures that websites are usable and navigable by individuals with disabilities. 
-                As a frontend developer, I implement accessibility best practices, including providing alternative text for images, using proper semantic HTML markup, ensuring keyboard navigation, and optimizing the website for screen readers. 
-              
+                As a frontend developer, I implement accessibility best practices.
                 </p>
             </div>
             
