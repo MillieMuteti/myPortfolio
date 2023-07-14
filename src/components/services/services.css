@@ -1,5 +1,4 @@
 .services-content {
-   
     margin: auto;
   
   }
@@ -16,7 +15,7 @@
   }
   
   .service-icon {
-    font-size: 48px;
+    margin-left: 30%;
     margin-bottom: 10px;
   }
   
