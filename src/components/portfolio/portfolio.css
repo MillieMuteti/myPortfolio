@@ -1,0 +1,58 @@
+.portfolio-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .project-item {
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .project-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .project-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .project-description {
+    padding: 10px;
+  }
+  
+  .project-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    background-color: #444;
+  }
+  

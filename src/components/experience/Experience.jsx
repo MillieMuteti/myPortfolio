@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
-import './Experience.css'; // Import the CSS file for styling
+import './Experience.css'; 
 
 const Experience = () => {
   const experiences = [
