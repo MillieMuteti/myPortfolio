@@ -3,6 +3,9 @@ import React from 'react';
 import './portfolio.css'; 
 import project1 from '../../assets/tubuy.png'
 import project2 from '../../assets/bookMyTicket.png'
+import project3 from '../../assets/pizza.png'
+import project4 from '../../assets/houseOfLiv.png'
+import project5 from '../../assets/pickup.png'
 
 const projects = [
   {
@@ -17,9 +20,30 @@ const projects = [
     name: 'Project 2',
     image: project2,
     description: 'Description of Project 2',
-    link: 'https://www.example.com/project2', // Replace with the actual project link for Project 2
+    link: 'https://www.example.com/project2',
   },
-  // Add more projects here...
+  {
+    id: 3,
+    name: 'Project 3',
+    image: project3,
+    description: 'Description of Project 2',
+    link: 'https://www.example.com/project2', 
+  },
+  {
+    id: 4,
+    name: 'Project 4',
+    image: project4,
+    description: 'Description of Project 2',
+    link: 'https://www.example.com/project2', 
+  },
+  {
+    id: 5,
+    name: 'Project 5',
+    image: project5,
+    description: 'Description of Project 2',
+    link: 'https://www.example.com/project2', 
+  }
+  
 ];
 
 
