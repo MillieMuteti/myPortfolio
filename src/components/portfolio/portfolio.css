@@ -1,12 +1,12 @@
 .portfolio-content {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: var(--max-container-width);
+    height: 100vh;
     padding: 20px;
   }
   
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
   }
   
@@ -16,6 +16,11 @@
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
   }
   
   .project-image {
@@ -52,7 +57,51 @@
     text-decoration: none;
   }
   
-  .project-link:hover {
-    background-color: #444;
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 767px) {
+    /* Styles for phones */
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .project-item {
+      margin-bottom: 15px;
+    }
+  
+    .project-image {
+      height: 150px;
+    }
+  
+    .project-name {
+      font-size: 14px;
+    }
+  
+    .project-description {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .project-item {
+      margin-bottom: 20px;
+    }
+  
+    .project-image {
+      height: 180px;
+    }
+  
+    .project-name {
+      font-size: 16px;
+    }
+  
+    .project-description {
+      font-size: 16px;
+    }
   }
   

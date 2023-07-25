@@ -6,7 +6,7 @@ import Me from '../../assets/me.png'
 const AboutMe = () => {
   return (
     <section id="about">
-      <div className="about-content">
+      <div className="container about-content">
         <div className="about-text">
           <h2>About Me</h2>
           <p>

@@ -6,10 +6,11 @@ import avatar from "../../assets/avatar1.jpg"
 const Testimonial = () => {
   return (
     <section id="testimonial">
-      <div className="testimonial-content">
-        <h2>Testimonial</h2>
+      <div className="container testimonial-content">
+        
         <div className="testimonial">
           <div className="testimonial-text">
+          <h2>Testimonial</h2>
             <p>
               <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

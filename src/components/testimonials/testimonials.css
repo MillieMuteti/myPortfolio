@@ -1,8 +1,6 @@
 .testimonial-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  margin-top: 20px;
+}
   
   .testimonial {
     display: flex;
@@ -17,9 +15,10 @@
   }
   
   .testimonial-image img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 50%;
+
   }
   
   /* Responsive Styles */

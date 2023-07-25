@@ -32,7 +32,7 @@ const Experience = () => {
 
   return (
     <section id="experience">
-      <div className="experience-content">
+      <div className="container experience-content">
         <h2>Experience</h2>
         <div className="experience-cards">
           {experiences.map((experience) => (
