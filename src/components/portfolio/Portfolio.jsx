@@ -26,8 +26,8 @@ const projects = [
     id: 3,
     name: 'Project 3',
     image: project3,
-    description: 'Description of Project 2',
-    link: 'https://www.example.com/project2', 
+    description: 'Descrip',
+    link: 'https://milliemuteti.github.io/pizza/', 
   },
   {
     id: 4,

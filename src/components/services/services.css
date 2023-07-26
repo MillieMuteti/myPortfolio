@@ -1,5 +1,5 @@
 .services-content {
-    margin: auto;
+    margin: 0 auto;
   
   }
   
@@ -16,7 +16,7 @@
   
   .service-icon {
     margin-left: 30%;
-    margin-bottom: 10px;
+
   }
   
   /* Responsive Styles */
