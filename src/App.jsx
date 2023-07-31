@@ -5,6 +5,7 @@ import Nav from "./components/nav/Nav"
 import About from "./components/about/About"
 import Services from "./components/services/Services"
 import Portfolio from './components/portfolio/Portfolio'
+import Skills from "./components/skills/Skills"
 import Experience from './components/experience/Experience'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contacts/Contact'
@@ -18,7 +19,8 @@ export default function App() {
         <About />
         <Experience />
         <Services />
-        <Portfolio />        
+        <Portfolio />  
+        <Skills/>
         <Testimonials />
         <Contact />
         <Footer />
