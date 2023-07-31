@@ -8,11 +8,17 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
-   
-    console.log('Form submitted!');
+    console.log('Form submitted');
+    // TODO: Send email here with form data
+    alert(`Thank you for your message ${firstName}! We will get back to you as soon as possible`);
+    // eslint-disable-next-line no-undef
+    resetFields();
+    
   };
+
 
   return (
     <section id="contact">
@@ -61,6 +67,8 @@ const Contact = () => {
           </div>
           <button type="submit" className='btn btn-primary'>Submit</button>
         </form>
+      
+    
       </div>
     </section>
   );

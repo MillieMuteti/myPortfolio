@@ -1,4 +1,7 @@
-
+  .testimonial-content {
+    height: 100%;
+    position: relative;
+  }
   .testimonial {
     display: flex;
     flex-direction: column;

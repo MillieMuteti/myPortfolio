@@ -1,6 +1,6 @@
 .portfolio-content {
-    max-width: var(--max-container-width);
-    height: 100vh;
+    position: relative;
+    height: 100%;
     padding: 20px;
   }
   

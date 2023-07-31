@@ -5,7 +5,7 @@ import {FaGlobe, FaTabletScreenButton, FaRegHourglassHalf, FaDharmachakra, FaRea
 function Services() {
   return (
     <section id='services'>
-        <div className='services-content'>
+        <div className='container services-content'>
         <h1>Services</h1>
         <div className='services-grid'>
             <div className='services'>
