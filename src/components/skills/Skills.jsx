@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import ProgressBar from "@ramonak/react-progress-bar";
+import Box from '@mui/joy/Box';
 import CircularProgress from '@mui/joy/CircularProgress';
 
 
@@ -47,13 +48,60 @@ function Skills() {
                     </Col>
                     <Col xs={12} md={6} debug>
                         <h3>Professional Skills</h3>
-                        <ul>
-                            <li>
-                                <h4>Communication</h4>
-                              Excellent communication skills, both written and oral.
+                        <Box  sx={{ display: 'flex', gap: 2, alignItems: 'center', flexWrap: 'wrap' }}>
+                            <ul>
+                                <li>
+                                <h4>Communication</h4>                                
+                                <CircularProgress 
+                                determinate
+                                size='lg'
+                                variant="soft"
+                                value= {90}
+                                color='success'                            
+                                />
+                                </li>
+                                <li>
+                                    <h4>Problem Solving</h4>
+                                
+                                    <CircularProgress 
+                                    determinate
+                                    size='lg'
+                                    variant="soft"
+                                    value= {75}
+                                    color='success'
+                                    
+                                    />
+                                </li>
+                                <li>
+                                    <h4>Creativity</h4>
+                                
+                                    <CircularProgress 
+                                    determinate
+                                    size='lg'
+                                    variant="soft"
+                                    value= {60}
+                                    color='success'
+                                    animateOnRender={true}
+                                    />
+                                </li>
+                                <li>
+                                    <h4>Team Work and Leadership</h4>
+                                
+                                    <CircularProgress 
+                                    determinate
+                                    size='lg'
+                                    variant="soft"
+                                    value= {75}
+                                    color='success'
+                                    
+                                    />
+                                </li>
+                            </ul>
+                       
+                        </Box>
+                              
                         
-                            </li>
-                        </ul>
+                          
                     </Col>
                 </Row>
             </Container>
