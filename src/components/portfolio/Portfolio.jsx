@@ -52,6 +52,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="container portfolio-content">
+      
         <h2>Portfolio</h2>
         <div className="projects-grid">
           {projects.map((project) => (

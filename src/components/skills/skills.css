@@ -1,0 +1,28 @@
+.skills-content {
+    position: relative;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.professional-skills {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ 
+
+}
+
+@media screen and (max-width:1024px) {
+    .skills {
+        grid-template-columns: 1fr;
+    }
+   
+ 
+}
+
+@media screen and (max-width:600px) {
+}
