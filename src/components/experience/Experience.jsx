@@ -6,27 +6,27 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      year: '2018 - Present',
-      position: 'Frontend Developer',
-      company: 'ABC Company',
+      year: 'Feb 2023 - Sept,2023',
+      position: 'Junior Frontend Developer',
+      company: 'Deveint limited',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Interned as a junior dev my roles included collaborating with other devs, testing apps and writing UATs and preparing User manuals for completed projects',
     },
     {
       id: 2,
-      year: '2016 - 2018',
-      position: 'UI Designer',
-      company: 'XYZ Agency',
+      year: 'July, 2021 - September, 2021',
+      position: 'Asst Plannet',
+      company: 'Narok County Governmet',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Worked as an attache under the Narok county planners. Helped in mapping data collection and preparing of regional development plans.',
     },
     {
       id: 3,
-      year: '2014 - 2016',
-      position: 'Web Developer',
-      company: '123 Web Solutions',
+      year: 'May,2021 - July,2021',
+      position: 'Web Designer Intern',
+      company: 'Instant pickup',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Interned and learned web design softwares and web design standards. Used Figma for projects while working under a group of talented devs.',
     },
   ];
 
