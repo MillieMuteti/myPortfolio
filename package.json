@@ -1,6 +1,7 @@
 {
   "name": "myportfolio",
   "private": true,
+  "homepage": "https://milliemuteti.github.io/react-gh-pages",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
